@@ -1,0 +1,30 @@
+.section {
+
+    &__contenedor {
+        display: flex;
+        height: 80px;
+        padding: 10px;
+        margin: 40px;
+        margin-top: 20px;
+        object-fit: cover;
+        color: $very-dark-desatured-blue;
+        align-items: center;
+        justify-content: space-around;
+        background: $yellow;
+        box-shadow: $sombreado;
+
+        h2 {
+            font: {
+
+                family: $font-fraunces;
+                size: 50px;
+            }
+        }
+    }
+
+    &__videos {
+
+        box-shadow: $sombreado;
+    }
+
+}
