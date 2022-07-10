@@ -2,14 +2,14 @@
 @import 'header';
 @import 'profile';
 @import 'contact';
+@import'responsive';
 @import 'index';
 
 
 
 
 body {
-    background-color: $just-white;
-}
+    
 
 
 ul {
@@ -27,7 +27,7 @@ h1 {
     margin: 0;
 }
 
-
+}
 
 
 
